@@ -7,5 +7,5 @@ radius = float(input("Enter the radius of the circle: "))
 if radius <= 0:
     print("Invalid radius! Radius must be greater than 0.")
 else:
-    area = math.pi * radius * radius
-    print("Area of the circle =", round(area, 2))
+    area = 3.14* radius * radius
+    print("Area of the circle =", area)
